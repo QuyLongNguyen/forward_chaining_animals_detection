@@ -1,0 +1,82 @@
+xương -> thú
+xương -> chim
+xương -> cá
+xương -> bò_sát
+xương -> lưỡng_cư
+không xương -> côn_trùng
+không xương -> giáp_xác
+không_xương -> thân_mềm
+không_xương -> thân_đốt
+máu_nóng -> thú
+máu_nóng -> chim
+máu_lạnh -> cá
+máu_lạnh -> bò_sát
+máu_lạnh -> lưỡng_cư
+máu_lạnh -> không xương
+đất -> hai_chân
+đất -> bốn_chân
+đất -> sáu_chân
+đất -> tám_chân
+đất -> bò_sát
+hai_chân -> chim
+bốn_chân -> thú
+bốn_chân -> lưỡng_cư
+thú -> chó
+thú và to -> voi
+thú và nhỏ -> mèo
+thú và trên_cây -> khỉ
+thú và sừng -> trâu
+thú và nuôi -> chó
+thú và nuôi -> mèo
+thú và hoang_dã -> hổ
+thú và ăn_thịt -> hỏ
+thú và ăn_cỏ -> trâu
+thú và cánh -> dơi
+độc-> bò_sát
+độc-> côn trùng
+không độc -> thú
+không độc -> chim
+không độc -> cá
+bò_sát và nhỏ -> bò_sát
+bò_sát và không chân -> trăn
+bò_sát và không chân và độc -> rắn
+bò_sát và bốn_chân -> kỳ nhông
+bò_sát và biết_bơi -> rùa
+bò_sát và to -> cá_sấu
+sáu_chân -> côn_trùng
+tám_chân -> nhện
+nước -> bơi
+bơi -> cá
+bơi -> thú
+bơi -> lưỡng_cư
+bơi -> giáp_xác
+bơi và thú -> cá heo
+bơi và không chân -> cá
+bơi và chân -> rùa
+bơi và thân_mềm -> bạch_tuộc
+cá và sông -> cá_chép
+cá và hồ -> cá_chép
+cá và nước_ngọt -> cá_chép
+cá và nước_mặn -> cá_mập
+cá và biển -> cá_mập
+cá và nước_mặn -> cá_mập
+giáp_xác -> tôm
+giáp_xác -> cua
+bay -> cánh
+cánh -> chim
+cánh -> côn trùng
+chim và không bay -> gà
+chim và không bay và to -> đà điểu
+chim và bay và ăn_thịt -> đại bàng
+chim và bay và nói -> vẹt
+chim và nói và hót -> sáo
+chim và Không bay và bơi -> vịt
+chim và Không bay và không bơi -> gà
+chim và thức_đêm -> cú
+chim và ở_biển -> hải âu
+côn_trùng -> ong
+côn_trùng và cánh -> ong
+côn_trùng và cánh -> bướm
+côn_trùng và cánh và hút_máu -> muỗi
+côn_trùng và bay và nhảy -> cào cào
+côn_trùng và không cánh -> kiến
