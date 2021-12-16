@@ -6,34 +6,17 @@ CONCLUSION = 1
 
 # Define function
 
-def standardlize(row : str):
-    nega_pos = row.find("không")
-    if nega_pos != -1:
-        row = row.split("không")[1].strip()
-        row = row.replace(" ","_")
-        row = "không " + row
-    else:
-        row = row.strip().replace(" ","_")
-    return row
-
-def isContainedIn(ls:list,st:set):
-    count = -1
-    for i in range(len(ls)):
-        for j in st:
-            if j in ls[i]:
-                count += 1
-        if count != i:
-            return False
-        i += 1
-    return True
 
 def loc(gt : set, rules : dict):
     sat = []
     for index in rules:
         rule:tuple = rules[index]
         sub_fact = str(rule[FACTS]).split(" và ")
-        if isContainedIn(sub_fact,gt):
-            sat.append(index)
+        for s in gt:
+            sub_gt = str(s).split(" và ")
+            check = all(item in sub_gt for item in sub_fact)
+            if(check):
+                sat.append(index)
     return sat
 
 def loc_cuoi(gt:set,rules : dict):
@@ -50,7 +33,6 @@ def loc_cuoi(gt:set,rules : dict):
 
 if __name__ == "__main__":
     
-
     rules = {}
     rules_copy = {}
     try:
@@ -65,14 +47,14 @@ if __name__ == "__main__":
         print("Đã nạp tập luật")
     except FileNotFoundError:
         print("Không tìm thấy tập luật")
- 
+
     gt = set()
     print("Nhập dữ kiện của bạn (Gõ stop để dừng): ")
     while True:
         row = input()
         if row in "stop":
             break
-        gt.add(standardlize(row))
+        gt.add(row)
 
     sat = loc(gt,rules)
     while len(sat) != 0:
