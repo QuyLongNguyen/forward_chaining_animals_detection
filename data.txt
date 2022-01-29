@@ -30,7 +30,7 @@ thú và nuôi -> chó
 thú và nuôi -> mèo
 thú và hoang_dã -> hổ
 thú và ăn_thịt -> hỏ
-thú và ăn_cỏ -> trâu
+thú và ăn cỏ -> trâu
 thú và cánh -> dơi
 độc-> bò_sát
 độc-> côn trùng
