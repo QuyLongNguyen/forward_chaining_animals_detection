@@ -49,6 +49,7 @@ nước -> bơi
 bơi -> cá
 bơi -> thú
 bơi -> lưỡng_cư
+lưỡng_cư -> ếch
 bơi -> giáp_xác
 bơi và thú -> cá heo
 bơi và không chân -> cá
